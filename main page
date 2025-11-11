@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study-Break Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Study-Break Hub</h1>
+    <p>Quick tools & activities to refresh your brain.</p>
+  </header>
+
+  <!-- Fake educational links (camouflage) -->
+  <section class="camouflage">
+    <a href="#">Math Flashcards</a> |
+    <a href="#">Typing Speed Test</a> |
+    <a href="#">Quiz Generator</a>
+  </section>
+
+  <!-- Password gate -->
+  <section class="gate">
+    <input type="password" id="pass" placeholder="Enter code" />
+    <button onclick="unlock()">Unlock Fun</button>
+    <p id="msg" class="msg"></p>
+  </section>
+
+  <!-- Hidden games grid -->
+  <section id="games-section" class="hidden">
+    <h2>Secret Games</h2>
+    <div class="game-grid" id="gameGrid">
+      <!-- Games injected by JS -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
