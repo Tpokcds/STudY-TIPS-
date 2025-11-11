@@ -1,0 +1,9 @@
+crazy-secret-games/
+│
+├── index.html
+├── style.css
+├── script.js
+└── games/
+    ├── game1.html
+    ├── game2.html
+    └── (add more .html files here)
